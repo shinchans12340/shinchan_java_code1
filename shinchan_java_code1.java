@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoLoginTest {
     public static void main(String[] args) {
-
+//add first line in java code 
         // Set ChromeDriver path (update with your local path)
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver.exe");
 
@@ -40,6 +40,7 @@ public class DemoLoginTest {
             e.printStackTrace();
         } finally {
             // Close browser
+           // add last line in java code for test 
             driver.quit();
         }
     }
